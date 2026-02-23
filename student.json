@@ -1,0 +1,13 @@
+{
+"students": [
+{
+"name": "Carl Gibson Sabal","age": 20,"course": "Information Technology"
+},
+{
+"name": "Clark Kentoy Pastillero","age": 22,"course": "Computer Science"
+},
+{
+"name": "Manuel Ivan Gutierrez","age": 19,"course": "Data Science"
+}
+]
+}

@@ -4,7 +4,23 @@
     <link rel="stylesheet" href="normalize.css" media="screen">
     <link rel="stylesheet" href="resets.css" media="screen">
     <link rel="stylesheet" href="styles.css" media="screen">
+    <script>
+        alert("Wassup homie, its aji!");
+        var choice;
+        if (confirm("Do you want to save changes?") == true)
+        {
+        choice = "Data saved successfully!";
+        } else {
+        choice = "Save Cancelled!";
+        }
+        var tenure = prompt("Please enter your age", "18");
+        if (tenure != null) {
+        alert("You are " + tenure + " years old");
+        }
+    </script>
+    
 </head>
+
 
 <ul class="nav">
     <li><a href="#about">About </a></li>
@@ -14,25 +30,87 @@
     <li><a href="#contact">Contact</a></li>
 </ul>
 
+
+
+<div class="profile">
+        <div>
+            <h1>ABEL JOBRAN SARSONAS</h1>
+        </div>
+        <div class="profile-pic">
+            <img src="ajigwapo.jpg" alt="Profile Picture">
+            <p>Abel Jobran Sarsonas</p>
+            <p class="course">Bachelor of Science and Technology</p>
+        </div>
+    </div>
+
 <div class="page-content">
     <div class="card" id="about">
         <p class="card-header">About</p>
-        <p class="card-body">Hello! I am Aj Sarsonas, 19 Years Old, living in Zone 4 Pasil Kauswagan.</p>
+        <ul>
+            <li>Name:      Aj Sarsonas</li>    
+            <li>Age:       19 Years Old </li>
+            <li>Address:   Zone 4 Pasil Kauswagan CDO.</p>
+        </ul>
     </div>
     <div class="card" id="education">
         <p class="card-header">Education</p>
-        <p class="card-body">I am currently enrolled in USTP with a course of BSIT</p>
+        <ul>
+            <li>College:      University Of Science and Technolgy of Southern Philippines </li>    
+            <li>Senior High School: Cagayan De Oro College - TVL Strand</li>
+            <li>High School:   Misamis Oriental General Comprehensive High School.</li>
+            <li>Elementary:   Kauswagan Central School.</li> 
+            <li>Currently enrolled as an Bachelor of Science in Information Technology at USTP</li> 
+
+        </ul>
     </div>
     <div class="card" id="skills">
         <p class="card-header">Skills</p>
-        <p class="card-body">I am good at analyzing and understanding the syntaxes/commands.>
+        <ul>
+            <li>Analyzing the scripts and codes</li>    
+            <li>Fixing errors</li>
+            <li>Developing systems</li>
+            <li>Reusing codes with proper handle</li> 
+            <li>Understanding the problems of codes</li> 
+        </ul>
     </div>
     <div class="card" id="portfolio">
         <p class="card-header">Portfolio</p>
-        <p class="card-body">I developed a Water Billing System and also A Carwash management system.</p>
+        <ul>
+            <li>Designed a Water Billing System</li>    
+            <li>Develop a Cashiering System</li>
+            <li>Develop a CRUD Bank System</li>
+            <li>Develop a SQL Database connectivity for the Cashiering System</li> 
+            <li>Develop a Carwash Management System</li> 
+        </ul>
+    </div>
+    <div class="card" id="contact">
+        <p class="card-header">Contact</p>
+        <ul>
+            <li>Email: sarsonas.abeljobran@gmail.com</li>    
+            <li>Number: 09605198901</li>
+            <li>Address: Zone 4 Pasil, Kauswagan CDO</li>
+            <li>Messenger: Aj Sarsonas</li> 
+            <li>Instagram: shlksthenm.jii</li> 
+        </ul>
     </div>
 </div>
 
-
+    <div class="page-content">
+        <p id="para1" class="card-body"> Hello! Tell us about yourself</p>
+        <p id="para2" class="card-body"> Tell us about your education</p>
+        <p id="para3" class="card-body"> Tell us about your IT Skills</p>
+        <p id="para4" class="card-body"> Share your IT projects</p>
+        
+        <script>
+        const paragraph1 = document.getElementById("para1")
+        const paragraph2 = document.getElementById("para2")
+        const paragraph3 = document.getElementById("para3")
+        const paragraph4 = document.getElementById("para4")
+        console.log(paragraph1);
+        console.log(paragraph2);
+        console.log(paragraph3);
+        console.log(paragraph4);
+        </script>
+    </div>
 
 </html>

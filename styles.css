@@ -2,14 +2,45 @@
 padding-top:30px;
 overflow: hidden;
 }
+
+/*Profile designing*/
+
+.profile-pic img {
+    width: 160px;        /* adjust size */
+    height: 160px;       /* must be equal to width */
+    border-radius: 50%;  /* makes it circle */
+    object-fit: cover;   /* prevents stretching */
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* horizontal center */
+    text-align: center;    /* center text */
+}
+
+.profile-pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-pic img {
+    border: 4px solid rgb(36, 22, 226);
+}
+
+/*Card Designs*/
+
 .card {
 /* Add shadows to create the "card" effect */
-border: 3px solid teal;
+border: 3px solid rgb(0, 0, 0);
 border-radius: 5px;
 width: 70%;
 margin-top:3%;
+margin: 0 auto;
 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 transition: 0.3s;
+text-align: left;
 }
 .card-header{
 padding:1%;
@@ -24,7 +55,7 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .nav{
-background-color: teal;
+background-color: rgb(36, 22, 226);
 list-style-type: none;
 }
 .nav li{
@@ -37,13 +68,15 @@ text-decoration: none;
 color:white
 }
 .nav{
-background-color: teal;
+background-color: rgb(36, 22, 226);
 list-style-type: none;
 text-align: center;
 position: fixed; top:0; width:100%;
+margin: 0; /*added*/
+padding: 0; /*added*/
 }
 .nav{
-background-color: teal;
+background-color: rgb(36, 22, 226);
 list-style-type: none;
 position: fixed; top:0; width:100%;
 text-align: center;
@@ -53,12 +86,12 @@ text-align: center;
 padding:1%;
 font-size: 20px;
 font-weight: 700;
-border-bottom: 2px solid rgb(192, 192, 192);
+border-bottom: 2px solid rgb(71, 71, 71);
 text-align: center;
 }
 .card {
 /* Add shadows to create the "card" effect */
-border: 3px solid teal;
+border: 3px solid rgb(36, 22, 226);
 border-radius: 5px;
 width: 70%;
 margin-top:3%;
